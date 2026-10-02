@@ -14,7 +14,7 @@
 
 body {
     margin: 0;
-    background-image: url(..assets/images/endless-constellation\ \(2\).svg);
+    background-image: url(../images/endless-constellation.svg);
     color: var(--text);
     font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
     line-height: 1.6;
