@@ -1,0 +1,13 @@
+EducaVault — versão organizada
+
+Alterações:
+- Classes e IDs dos HTMLs renomeados para português.
+- Seletores CSS atualizados para acompanhar os novos nomes.
+- Comentários excessivamente óbvios removidos.
+- Classe .badge removida do index.css porque não é usada no HTML atual.
+- Estado vazio padronizado como .vazio.
+- Estrutura visual e conteúdo preservados.
+
+Observação:
+Os HTMLs ainda referenciam assets/logo.svg, assets/images/ e assets/main.js.
+Esses arquivos não foram incluídos porque não foram enviados nesta etapa.

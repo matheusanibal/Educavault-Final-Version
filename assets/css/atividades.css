@@ -1,0 +1,61 @@
+.grade-materias {
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    gap: 18px;
+}
+
+.cartao-materia {
+    display: flex;
+    flex-direction: column;
+    padding: 26px;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    background: var(--panel);
+    transition: border-color .2s,transform .2s;
+}
+
+.cartao-materia:hover {
+    transform: translateY(-3px);
+}
+
+.cartao-materia h3 {
+    font-size: 22px;
+    margin: 24px 0 12px;
+}
+
+.cartao-materia p {
+    font-size: 15px;
+    color: var(--muted);
+    margin: 0 0 26px;
+}
+
+.link-cartao {
+    margin-top: auto;
+    font-weight: 700;
+    color: var(--cyan);
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width:850px) {
+    .grade-materias {
+        grid-template-columns: repeat(2,minmax(0,1fr));
+    }
+}
+
+@media (max-width:600px) {
+    .grade-materias {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (prefers-reduced-motion:reduce) {
+    .cartao-materia {
+        transition: none;
+    }
+
+    .cartao-materia:hover {
+        transform: none;
+    }
+}
